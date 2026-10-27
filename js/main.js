@@ -61,7 +61,11 @@ menuToggle?.addEventListener("click", () => {
 });
 
 siteNav?.addEventListener("click", (event) => {
-  if (event.target.closest("a")) setMenuOpen(false, { returnFocus: true });
+  const link = event.target.closest("a");
+  if (!link) return;
+
+  setMenuOpen(false, { returnFocus: true });
+  setActiveNavigationLink(link);
 });
 
 document.addEventListener("keydown", (event) => {
@@ -69,6 +73,47 @@ document.addEventListener("keydown", (event) => {
     setMenuOpen(false, { returnFocus: true });
   }
 });
+
+const navigationLinks = [...(siteNav?.querySelectorAll('a[href^="#"]') ?? [])];
+const navigationSections = navigationLinks
+  .map((link) => ({ link, section: document.querySelector(link.getAttribute("href")) }))
+  .filter(({ section }) => section);
+
+const setActiveNavigationLink = (activeLink) => {
+  navigationLinks.forEach((link) => {
+    if (link === activeLink) {
+      link.setAttribute("aria-current", "page");
+    } else {
+      link.removeAttribute("aria-current");
+    }
+  });
+};
+
+const updateActiveNavigationLink = () => {
+  const headerHeight = document.querySelector(".site-header")?.offsetHeight ?? 0;
+  const activeSection = navigationSections
+    .filter(({ section }) => section.getBoundingClientRect().top <= headerHeight)
+    .at(-1);
+
+  setActiveNavigationLink(activeSection?.link);
+};
+
+if (navigationSections.length) {
+  let navigationUpdateQueued = false;
+  const requestNavigationUpdate = () => {
+    if (navigationUpdateQueued) return;
+    navigationUpdateQueued = true;
+    window.requestAnimationFrame(() => {
+      updateActiveNavigationLink();
+      navigationUpdateQueued = false;
+    });
+  };
+
+  window.addEventListener("scroll", requestNavigationUpdate, { passive: true });
+  window.addEventListener("resize", requestNavigationUpdate);
+  window.addEventListener("hashchange", requestNavigationUpdate);
+  requestNavigationUpdate();
+}
 
 const localTime = document.querySelector("[data-local-time]");
 const brasiliaTime = document.querySelector("[data-brasilia-time]");

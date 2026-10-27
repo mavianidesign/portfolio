@@ -66,9 +66,9 @@
 | `assets/images/inovacoes-disruptivas/role-activity-flow.png` | `3422:1960` | Fluxo de jogadores | PNG, 1128×580 | Sem distorção | Atuação | Criação e padronização de componentes da interface do jogo |
 | `assets/images/inovacoes-disruptivas/role-activity-mocks.png` | `3422:1961` | Fluxos e mockups | PNG, 1128×422 | Sem distorção | Atuação | Mapeamento do fluxo de jogadores por turnos e etapas |
 | `assets/images/inovacoes-disruptivas/dungeons-hero.png` | `2867:1862` Icon Illustrations Image | Ilustração do projeto | PNG, 521×397 | Sem distorção | Abertura | Ilustração de personagens de Dungeons & Data |
-| `assets/images/inovacoes-disruptivas/dungeons-missions.png` | `3569:2108` Missions Illustration | Tela de missões | PNG, 1126×648 | Sem distorção | Missões e tarefas | Painel de missões e tarefas da plataforma Dungeons & Data |
-| `assets/images/inovacoes-disruptivas/dungeons-missions-screen.png` | `3571:2140` Missions Image | Tela de recompensa | PNG, 464×574 | Sem distorção | Missões e tarefas | Tela de recompensa por missão concluída |
-| `assets/images/inovacoes-disruptivas/dungeons-ranking.png` | `3570:2137` Details Illustration | Tela de ranking | PNG, 1126×884 | Sem distorção | Ranking | Tela de ranking de Dungeons & Data |
+| `assets/images/inovacoes-disruptivas/dungeons-missions-illustration.png` | `3569:2108` Missions Illustration | Tela de missões | PNG, 1777×1025 | Sem distorção | Missões e tarefas | Painel de missões e tarefas da plataforma Dungeons & Data |
+| `assets/images/inovacoes-disruptivas/dungeons-missions-detail.png` | `3571:2140` Missions Image | Tela de recompensa | PNG, 928×1147 | Sem distorção | Missões e tarefas | Tela de recompensa por missão concluída |
+| `assets/images/inovacoes-disruptivas/dungeons-ranking-illustration.png` | `3570:2137` Details Illustration | Tela de ranking | PNG, 2620×2058 | Sem distorção | Ranking | Tela de ranking de Dungeons & Data |
 | `assets/images/inovacoes-disruptivas/dungeons-event.png` | `3574:2334` Illustration | Foto do evento BBDW | PNG, 424×600 | Sem distorção | Resultados | Apresentação de Dungeons & Data no evento BBDW |
 
 ## Interações e estados

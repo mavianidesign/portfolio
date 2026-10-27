@@ -20,6 +20,8 @@ A home carrega `css/index.css` depois de `css/components.css`. As imagens e over
 
 O `.project-button` usa o SVG decorativo inline `.project-button__icon`, com `currentColor`, permitindo que sua cor acompanhe tokens e transicione no hover.
 
+Os links de `.site-nav` usam `--color-text-soft` no hover e quando recebem `aria-current="page"`. Na home, `js/main.js` atualiza esse atributo conforme a se��ǜo cruza o cabe��alho fixo.
+
 O footer `.contact` mantém o e-mail em uma única linha com escala relativa à largura disponível. Em telas de até 640 px, `.time-info` vem antes do copyright e o copyright fica centralizado.
 
 | Necessidade | API preferencial |
