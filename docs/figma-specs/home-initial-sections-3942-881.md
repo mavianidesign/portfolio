@@ -27,10 +27,10 @@
 
 | Arquivo local | Camada/ID Figma | Função | Formato e dimensões | Proporção, recorte e foco | Exibição | Alt text |
 | --- | --- | --- | --- | --- | --- | --- |
-| `assets/images/home-initial-sections-3942-881/arrow-035.png` | `Arrows/Arrow_035` / 3942:872 | Decorativo | PNG, 243.825 x 43.217 px | Rotação -60° e espelhamento vertical observados | 159.34 x 232.767 px após transformação | vazio |
-| `assets/images/desktop-1366px/CamScanner 06-24-2022 10.51_2 1.jpg` | `CamScanner 06-24-2022 10.51_2 1` / 3720:841 | Decorativo | JPG; dimensão intrínseca não especificada no nó | Rotação 2.59° | 176.563 x 240.507 px | vazio |
-| `assets/images/desktop-1366px/CamScanner 06-24-2022 10.51_3 1.jpg` | `CamScanner 06-24-2022 10.51_3 1` / 3720:839 | Decorativo | JPG; dimensão intrínseca não especificada no nó | Rotação -4.68° | 170.108 x 218.18 px | vazio |
-| `assets/images/home-initial-sections-3942-881/camscanner-design-sketch-01.png` | `CamScanner 06-24-2022 10.51_1 1` / 3720:840 | Decorativo | PNG; 198.961 x 260.766 px no nó | Rotação 7.47° | 198.961 x 260.766 px | vazio |
+| `assets/images/home-initial-sections-3942-881/arrow-035.png` | `Arrows/Arrow_035` / 3942:872 | Decorativo | PNG otimizado com transparência, 488 x 86 px | Rotação -60° e espelhamento vertical observados | 159.34 x 232.767 px após transformação | vazio |
+| `assets/images/index/design-sketch-back.jpg` | `CamScanner 06-24-2022 10.51_2 1` / 3720:841 | Decorativo | JPEG otimizado, 480 x 652 px | Rotação 2.59° | 176.563 x 240.507 px | vazio |
+| `assets/images/index/design-sketch-middle.jpg` | `CamScanner 06-24-2022 10.51_3 1` / 3720:839 | Decorativo | JPEG otimizado, 480 x 615 px | Rotação -4.68° | 170.108 x 218.18 px | vazio |
+| `assets/images/index/design-sketch-front.jpg` | `CamScanner 06-24-2022 10.51_1 1` / 3720:840 | Decorativo | JPEG otimizado, 480 x 664 px | Rotação 7.47° | 198.961 x 260.766 px | vazio |
 | `assets/images/desktop-1366px/Project Image 2.png` | `Project Image 2` / 3714:780 | Decorativo | PNG; dimensão intrínseca não especificada no nó | Recorte vertical observado | 482 x 314 px | vazio |
 | `assets/images/desktop-1366px/Project Image 3.png` | `Project Image 3` / 3714:782 | Decorativo | PNG; dimensão intrínseca não especificada no nó | Recorte vertical observado | 505 x 270 px | vazio |
 | `assets/images/desktop-1366px/logo ideias 1.png` | `logo ideias 1` / 3942:859 | Decorativo | PNG, 887 x 220 px | Sem recorte especificado | 887 x 220 px | vazio |

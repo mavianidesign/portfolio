@@ -91,8 +91,6 @@
 | `assets/images/jornadas-guiadas/descoberta/Projetos/Descoberta Captura Panoramica 1.png` até `5.png` | `3487:1229–1231` e `3487:1233` | primeira galeria de jornadas | PNGs 2× exportados das camadas exatas | recortes e blur conforme o nó | overlays proporcionais | vazio |
 | `assets/images/jornadas-guiadas/descoberta/Projetos/Descoberta Captura Galeria.png` e `Descoberta Captura Panoramica 7.png` até `8.png` | `3487:1276` e `3487:1278–1279` | segunda galeria de entrevistas | PNGs 2× exportados das camadas exatas | recortes e blur conforme o nó | overlays proporcionais | vazio |
 
-Os arquivos `gallery-one-panorama-4.png` e `gallery-two-panorama-6.png` permanecem temporariamente nos caminhos anteriores porque não há exports correspondentes na pasta `Projetos`.
-
 ## Checklist de comparação
 
 - [x] Estrutura e conteúdo do shell/hero conferem com o nó.
@@ -111,11 +109,11 @@ Os arquivos `gallery-one-panorama-4.png` e `gallery-two-panorama-6.png` permanec
 
 | Arquivo local | Camada/ID Figma | Função | Formato e dimensões | Proporção, recorte e foco | Exibição | Alt text |
 | --- | --- | --- | --- | --- | --- | --- |
-| `assets/images/jornadas-guiadas/resultados-screenshot-1.png` | `Project Screenshot Image` / `3366:830` | captura principal de resultados | PNG, dimensão exportada registrada no arquivo | altura ampliada para `152.47%`, blur de `8 px` | `550 × 662 px` | vazio |
-| `assets/images/jornadas-guiadas/resultados-screenshot-2.png` | `Project Screenshot Image 2` / `3366:831` | segunda captura de resultados | PNG, dimensão exportada registrada no arquivo | aspect ratio `2732/1836`, blur de `8 px` | `543 × 364.915 px` | vazio |
-| `assets/images/jornadas-guiadas/resultados-screenshot-3.png` | `Project Screenshot Image 3` / `3366:832` | terceira captura de resultados | PNG, dimensão exportada registrada no arquivo | aspect ratio `2732/1394`, blur de `8 px` | `543 × 277.065 px` | vazio |
-| `assets/images/jornadas-guiadas/resultados-chart.png` | `Project Chart Image` / `3366:833` | gráfico de resultados | PNG, dimensão exportada registrada no arquivo | aspect ratio `2732/2256`, blur de `8 px` | `1126 × 929.815 px` | vazio |
-| `assets/images/jornadas-guiadas/resultados-details.png` | `Project Details Image` / `3366:834` | detalhes de resultados | PNG, dimensão exportada registrada no arquivo | aspect ratio `2732/1394`, blur de `8 px` | `1126 × 574.54 px` | vazio |
+| `assets/images/jornadas-guiadas/Projetos/Project Screenshot Image.png` | `Project Screenshot Image` / `3366:830` | captura principal de resultados | PNG, dimensão exportada registrada no arquivo | altura ampliada para `152.47%`, blur de `8 px` | `550 × 662 px` | vazio |
+| `assets/images/jornadas-guiadas/Projetos/Project Screenshot Image 2.png` | `Project Screenshot Image 2` / `3366:831` | segunda captura de resultados | PNG, `2732 × 1836 px` | aspect ratio `2732/1836`, blur de `8 px` | `543 × 364.915 px` | vazio |
+| `assets/images/jornadas-guiadas/Projetos/Project Screenshot Image 3.png` | `Project Screenshot Image 3` / `3366:832` | terceira captura de resultados | PNG, `2732 × 1394 px` | aspect ratio `2732/1394`, blur de `8 px` | `543 × 277.065 px` | vazio |
+| `assets/images/jornadas-guiadas/Projetos/Project Chart Image.png` | `Project Chart Image` / `3366:833` | gráfico de resultados | PNG, `2732 × 2256 px` | aspect ratio `2732/2256`, blur de `8 px` | `1126 × 929.815 px` | vazio |
+| `assets/images/jornadas-guiadas/Projetos/Project Details Image.png` | `Project Details Image` / `3366:834` | detalhes de resultados | PNG, `2732 × 1394 px` | aspect ratio `2732/1394`, blur de `8 px` | `1126 × 574.54 px` | vazio |
 | `assets/icons/jornadas-results-nps.svg` | `Icon` / `3455:2425` | métrica de NPS | SVG, `64 × 64 px` | proporção intrínseca | `64 × 64 px` | vazio |
 | `assets/icons/jornadas-results-ces.svg` | `Icon` / `3455:2433` | métrica de CES | SVG, `64 × 64 px` | proporção intrínseca | `64 × 64 px` | vazio |
 | `assets/icons/jornadas-results-csat.svg` | `Icon` / `3455:2442` | métrica de CSAT | SVG, `64 × 64 px` | proporção intrínseca | `64 × 64 px` | vazio |
@@ -144,11 +142,6 @@ Os arquivos `gallery-one-panorama-4.png` e `gallery-two-panorama-6.png` permanec
 | Arquivo local | Camada/ID Figma | Função | Formato e dimensões | Proporção, recorte e foco | Exibição | Alt text |
 | --- | --- | --- | --- | --- | --- | --- |
 | `assets/images/jornadas-guiadas/handoff-panel.png` | `Prototipacao Painel Interativo` / `3487:1293` | imagem principal do painel | PNG, dimensão exportada registrada no arquivo | escala de `151.39% × 144.45%`, deslocamento de `-25.69% / -31.85%` | painel responsivo `1126 × 622 px` | vazio |
-| `assets/images/jornadas-guiadas/handoff-icon-main.png` | `Icon` / `3488:1336` | anotação visual central | PNG, dimensão exportada registrada no arquivo | rotação de `-45°` | composição de `165.442 px` | vazio |
-| `assets/images/jornadas-guiadas/handoff-line.png` | `Line` / `3488:1340` | linha decorativa | PNG, dimensão exportada registrada no arquivo | recorte integral | `186 × 42 px` | vazio |
-| `assets/images/jornadas-guiadas/handoff-icon-side.png` | `Icon` / `3488:1344` | anotação visual lateral | PNG, dimensão exportada registrada no arquivo | rotação de `90°` | composição de `132 × 292 px` | vazio |
-| `assets/images/jornadas-guiadas/handoff-icon-left.png` | `Icon` / `3488:1348` | anotação visual inferior esquerda | PNG, dimensão exportada registrada no arquivo | recorte integral | `65 × 59 px` | vazio |
-| `assets/images/jornadas-guiadas/handoff-icon-top.png` | `Icon` / `3488:1350` | anotação visual superior | PNG, dimensão exportada registrada no arquivo | recorte integral | `63 × 70 px` | vazio |
 
 ## Checklist de comparação — HANDOFF DETALHADO E DOCUMENTADO
 

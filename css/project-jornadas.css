@@ -381,18 +381,21 @@
 .prototyping-container {
     display: grid;
     gap: 80px;
+    min-width: 0;
 }
 
 .prototyping-gallery {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 16px;
+    min-width: 0;
 }
 
 .prototyping-gallery-column {
     display: grid;
     grid-template-rows: 568px 351px 248px;
     gap: 16px;
+    min-width: 0;
 }
 
 .prototyping-frame img {
@@ -794,6 +797,10 @@
 }
 
 @media (max-width: 640px) {
+
+    .prototyping-container > .case-title--section {
+        font-size: clamp(2.25rem, 11vw, 4.25rem);
+    }
 
     .prototyping-section {
         padding-block: 72px;

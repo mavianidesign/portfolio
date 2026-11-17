@@ -22,9 +22,9 @@
 
 | Arquivo local | Camada/ID Figma | Função | Formato | Dimensão de exibição | Alt text |
 | --- | --- | --- | --- | --- | --- |
-| `role-acting-study-01.png` | `Experience Image` / `3422:1947` | Estudo de GUI | PNG | 759 px de largura | Estudo de interface do jogo Rolê que Rende BB |
-| `role-acting-study-02.png` | `Experience Image` / `3422:1948` | Estudo complementar de GUI | PNG | 759 px de largura | Estudo complementar de interface do jogo |
-| `role-acting-study-03.png` | `Experience Image` / `3422:1949` | Estudo complementar de GUI | PNG | 759 px de largura | Estudo complementar de interface do jogo |
+| `role-acting-study-01.jpg` | `Experience Image` / `3422:1947` | Estudo de GUI | JPEG otimizado | 759 px de largura | Estudo de interface do jogo Rolê que Rende BB |
+| `role-acting-study-02.jpg` | `Experience Image` / `3422:1948` | Estudo complementar de GUI | JPEG otimizado | 759 px de largura | Estudo complementar de interface do jogo |
+| `role-acting-study-03.jpg` | `Experience Image` / `3422:1949` | Estudo complementar de GUI | JPEG otimizado | 759 px de largura | Estudo complementar de interface do jogo |
 | `role-acting-components.png` | `Large Image` / `3422:1893` | Componentes GUI | PNG | 732 × 559 px | Componentes padronizados da interface do jogo |
 | `role-acting-flow.png` | `Role Image` / `3422:1891` | Fluxo de turnos | PNG | 760 × 422 px | Mapeamento do fluxo de jogadores por turnos e etapas |
 | `role-acting-study.svg`, `role-acting-components.svg`, `role-acting-flow.svg` | ícones do nó | Ícones decorativos dos cards | SVG | 40 × 40 px | decorativo |

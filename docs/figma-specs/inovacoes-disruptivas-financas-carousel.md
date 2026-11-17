@@ -19,12 +19,12 @@
 
 | Arquivo local | Camada/ID Figma | Função | Formato e dimensões | Proporção, recorte e foco | Exibição | Alt text |
 | --- | --- | --- | --- | --- | --- | --- |
-| `assets/images/inovacoes-disruptivas/financas-carousel-01.png` | `2867:1790` Wide Image | Tela do protótipo | PNG, 569 x 320 px | Sem recorte adicional | 569 x 320 px | Tela do protótipo Minhas Finanças XR, 1 de 6 |
-| `assets/images/inovacoes-disruptivas/financas-carousel-02.png` | `2867:1791` Wide Image | Tela do protótipo | PNG, 569 x 320 px | Sem recorte adicional | 569 x 320 px | Tela do protótipo Minhas Finanças XR, 2 de 6 |
-| `assets/images/inovacoes-disruptivas/financas-carousel-03.png` | `2867:1792` Wide Image | Tela do protótipo | PNG, 569 x 320 px | Sem recorte adicional | 569 x 320 px | Tela do protótipo Minhas Finanças XR, 3 de 6 |
-| `assets/images/inovacoes-disruptivas/financas-carousel-04.png` | `2867:1793` Wide Image | Tela do protótipo | PNG, 569 x 320 px | Sem recorte adicional | 569 x 320 px | Tela do protótipo Minhas Finanças XR, 4 de 6 |
-| `assets/images/inovacoes-disruptivas/financas-carousel-05.png` | `2867:1794` Wide Image | Tela do protótipo | PNG, 569 x 320 px | Sem recorte adicional | 569 x 320 px | Tela do protótipo Minhas Finanças XR, 5 de 6 |
-| `assets/images/inovacoes-disruptivas/financas-carousel-06.png` | `2867:1795` Wide Image | Tela do protótipo | PNG, 569 x 320 px | Sem recorte adicional | 569 x 320 px | Tela do protótipo Minhas Finanças XR, 6 de 6 |
+| `assets/images/inovacoes-disruptivas/financas-carousel-01.jpg` | `2867:1790` Wide Image | Tela do protótipo | JPEG otimizado, 569 x 320 px | Sem recorte adicional | 569 x 320 px | Tela do protótipo Minhas Finanças XR, 1 de 6 |
+| `assets/images/inovacoes-disruptivas/financas-carousel-02.jpg` | `2867:1791` Wide Image | Tela do protótipo | JPEG otimizado, 569 x 320 px | Sem recorte adicional | 569 x 320 px | Tela do protótipo Minhas Finanças XR, 2 de 6 |
+| `assets/images/inovacoes-disruptivas/financas-carousel-03.jpg` | `2867:1792` Wide Image | Tela do protótipo | JPEG otimizado, 569 x 320 px | Sem recorte adicional | 569 x 320 px | Tela do protótipo Minhas Finanças XR, 3 de 6 |
+| `assets/images/inovacoes-disruptivas/financas-carousel-04.jpg` | `2867:1793` Wide Image | Tela do protótipo | JPEG otimizado, 569 x 320 px | Sem recorte adicional | 569 x 320 px | Tela do protótipo Minhas Finanças XR, 4 de 6 |
+| `assets/images/inovacoes-disruptivas/financas-carousel-05.jpg` | `2867:1794` Wide Image | Tela do protótipo | JPEG otimizado, 569 x 320 px | Sem recorte adicional | 569 x 320 px | Tela do protótipo Minhas Finanças XR, 5 de 6 |
+| `assets/images/inovacoes-disruptivas/financas-carousel-06.jpg` | `2867:1795` Wide Image | Tela do protótipo | JPEG otimizado, 569 x 320 px | Sem recorte adicional | 569 x 320 px | Tela do protótipo Minhas Finanças XR, 6 de 6 |
 
 ## Interações e estados
 

@@ -75,6 +75,8 @@ tem uso estável em um segundo contexto.
 
 ## Responsividade, acessibilidade e desempenho
 
+O elemento `.case-study` não aplica contenção horizontal ao documento. Componentes compartilhados da capa permitem encolhimento com `min-width: 0`; composições que extrapolam seus limites devem usar contenção no componente ou na seção local responsável. Paletas, carrosséis e previews mantêm a rolagem no próprio componente.
+
 - Preserve o desktop aprovado. Empilhe ou reorganize quando o conteúdo exigir; não introduza alterações estéticas gratuitas em telas menores.
 - Use `minmax(0, 1fr)` em grids flexíveis e `min-width: 0` em filhos que podem encolher para evitar estouro por texto ou mídia.
 - Confinar uma decoração extrapolada ao seu frame é preferível a esconder overflow do documento inteiro. Scroll horizontal é excepcional e deve ser intencional, acessível e local.

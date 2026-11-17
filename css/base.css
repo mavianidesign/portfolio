@@ -18,10 +18,6 @@ body {
     line-height: var(--leading-body);
 }
 
-.case-study {
-    overflow-x: hidden;
-}
-
 h1,
 h2,
 h3,

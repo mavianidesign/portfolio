@@ -38,11 +38,13 @@
 .case-cover__context {
     display: grid;
     gap: var(--space-4);
+    min-width: 0;
 }
 
 .case-cover__copy {
     display: grid;
     gap: var(--space-4);
+    min-width: 0;
     color: var(--color-text-soft);
     font: var(--weight-regular) var(--text-sm) / var(--leading-body) var(--font-body);
 }
@@ -297,7 +299,7 @@
 }
 
 .site-nav a:hover,
-.site-nav a[aria-current="page"] {
+.site-nav a[aria-current="location"] {
     color: var(--color-text-soft);
 }
 

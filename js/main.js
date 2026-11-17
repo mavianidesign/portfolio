@@ -35,16 +35,20 @@ const revealHomeSequence = () => {
 };
 
 if (homeAnimationTargets.length) {
-  let hasStarted = false;
-  const startHomeSequence = () => {
-    if (hasStarted || window.scrollY < homeAnimationConfig.scrollTriggerOffset) return;
-    hasStarted = true;
-    window.removeEventListener("scroll", startHomeSequence);
+  if (prefersReducedMotion) {
     revealHomeSequence();
-  };
+  } else {
+    let hasStarted = false;
+    const startHomeSequence = () => {
+      if (hasStarted || window.scrollY < homeAnimationConfig.scrollTriggerOffset) return;
+      hasStarted = true;
+      window.removeEventListener("scroll", startHomeSequence);
+      revealHomeSequence();
+    };
 
-  window.addEventListener("scroll", startHomeSequence, { passive: true });
-  startHomeSequence();
+    window.addEventListener("scroll", startHomeSequence, { passive: true });
+    startHomeSequence();
+  }
 }
 
 const menuToggle = document.querySelector(".menu-toggle");
@@ -82,7 +86,7 @@ const navigationSections = navigationLinks
 const setActiveNavigationLink = (activeLink) => {
   navigationLinks.forEach((link) => {
     if (link === activeLink) {
-      link.setAttribute("aria-current", "page");
+      link.setAttribute("aria-current", "location");
     } else {
       link.removeAttribute("aria-current");
     }

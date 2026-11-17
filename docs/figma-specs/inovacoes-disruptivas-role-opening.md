@@ -22,7 +22,7 @@
 
 | Arquivo local | Camada/ID Figma | Função | Formato e dimensões | Exibição | Alt text |
 | --- | --- | --- | --- | --- | --- |
-| `assets/images/inovacoes-disruptivas/role-game-cover.png` | `Game Image` / `2867:1770` | Ilustração do jogo | PNG, 631 × 361 px | 452 × 339 px, `object-fit: cover` | Arte do jogo Rolê que Rende BB no Roblox |
+| `assets/images/inovacoes-disruptivas/role-game-cover.jpg` | `Game Image` / `2867:1770` | Ilustração do jogo | JPEG otimizado, 631 × 361 px | 452 × 339 px, `object-fit: cover` | Arte do jogo Rolê que Rende BB no Roblox |
 | `assets/icons/role-opening-award.svg` | `Event Icon` / `2867:1773`, `2867:1778`, `2867:1783` | Ícone dos reconhecimentos | SVG, 32 × 32 px | 32 × 32 px | decorativo |
 
 ## Responsividade

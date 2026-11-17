@@ -22,8 +22,8 @@
 
 | Arquivo local | Camada/ID Figma | Função | Formato e dimensões | Exibição | Alt text |
 | --- | --- | --- | --- | --- | --- |
-| `assets/images/inovacoes-disruptivas/role-request-image.png` | `Bottom Container Alternativa Image` / `3582:675` | Decoração da demanda | PNG, 241 × 241 px | 241 × 241 px; deslocada -121 px / -66 px | decorativo |
-| `assets/images/inovacoes-disruptivas/role-solution-image.png` | `Solution Details Image` / `3582:678` | Decoração da solução | PNG, 330 × 233 px | 330 × 233 px; deslocada 213 px / 455 px | decorativo |
+| `assets/images/inovacoes-disruptivas/role-request-image.png` | `Bottom Container Alternativa Image` / `3582:675` | Decoração da demanda | PNG otimizado com transparência, 241 × 241 px | 241 × 241 px; deslocada -121 px / -66 px | decorativo |
+| `assets/images/inovacoes-disruptivas/role-solution-image.png` | `Solution Details Image` / `3582:678` | Decoração da solução | PNG otimizado com transparência, 330 × 233 px | 330 × 233 px; deslocada 213 px / 455 px | decorativo |
 
 ## Responsividade
 

@@ -23,7 +23,7 @@
 | Arquivo local | Camada/ID Figma | Função | Formato e dimensões | Proporção, recorte e foco | Exibição | Alt text |
 | --- | --- | --- | --- | --- | --- | --- |
 | `assets/images/inovacoes-disruptivas/financas-final-product-divider.png` | Line Divider / `3346:4953` | Divisor do título | PNG, 490 x 44 px | sem recorte | 490 x 44 px | vazio |
-| `assets/images/inovacoes-disruptivas/financas-final-product-installation.png` | Exportação bruta do nó; a API não expôs a associação da imagem à camada de vídeo nomeada | Imagem estática temporária da instalação | PNG, 647 x 366 px | `object-fit: cover` | 562 x 364 px no desktop | Instalação de Minhas Finanças XR em um evento de tecnologia |
+| `assets/images/inovacoes-disruptivas/financas-final-product-installation.jpg` | Exportação bruta do nó; a API não expôs a associação da imagem à camada de vídeo nomeada | Imagem estática temporária da instalação | JPEG otimizado, 647 x 366 px | `object-fit: cover` | 562 x 364 px no desktop | Instalação de Minhas Finanças XR em um evento de tecnologia |
 | `assets/images/inovacoes-disruptivas/financas-final-product-headset.png` | Exportação bruta do nó; a API não expôs a associação da imagem à camada de vídeo nomeada | Imagem estática temporária de uso da experiência | PNG, 678 x 384 px | `object-fit: cover` | 562 x 364 px no desktop | Pessoa usando headset na experiência Minhas Finanças XR |
 
 ## Interações e estados

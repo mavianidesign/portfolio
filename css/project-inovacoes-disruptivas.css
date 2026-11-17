@@ -3,7 +3,7 @@
     z-index: -2;
     inset: 0;
     content: "";
-    background: url("../assets/images/inovacoes-disruptivas/hero-event-background.png") center / cover no-repeat;
+    background: url("../assets/images/inovacoes-disruptivas/hero-event-background.jpg") center / cover no-repeat;
     border-bottom: 2px solid var(--color-text-secondary);
 }
 
@@ -353,6 +353,7 @@
 
 .financas-acting {
     padding-block: var(--space-16);
+    overflow-x: clip;
 }
 
 .financas-acting__grid {
@@ -530,30 +531,12 @@
     transform: rotate(-4.52deg);
 }
 
-.financas-approved__sketch-detail {
-    position: absolute;
-    z-index: 1;
-    top: 49%;
-    right: 7%;
-    width: 37.6%;
-    height: auto;
-}
-
 .financas-approved__process {
     top: 0;
     left: 0;
     width: 80%;
     height: auto;
     transform: rotate(16.8deg);
-}
-
-.financas-approved__process-detail {
-    position: absolute;
-    top: 33%;
-    left: 15%;
-    width: 41.2%;
-    height: auto;
-    mix-blend-mode: color-dodge;
 }
 
 .financas-approved__cover {
@@ -563,17 +546,6 @@
     overflow: hidden;
     border-radius: 0;
     box-shadow: var(--shadow-floating);
-}
-
-.financas-approved__profile {
-    position: absolute;
-    top: 0;
-    left: 0.78%;
-    width: 99.22%;
-    height: 100%;
-    object-fit: cover;
-    mix-blend-mode: hard-light;
-    transform: rotate(-90deg) scale(1.78);
 }
 
 .financas-final-product {
@@ -735,7 +707,6 @@
 }
 
 .role-showcase__board img,
-.role-acting__item img,
 .dungeons-feature__main img,
 .dungeons-feature__side img {
     width: 100%;
@@ -1116,14 +1087,6 @@ img.role-acting__icon {
     object-fit: cover;
 }
 
-.role-acting__list {
-    display: none;
-}
-
-.role-acting__item {
-    border: 1px solid var(--color-border-subtle);
-}
-
 .dungeons-opening {
     display: flex;
     flex-wrap: wrap;
@@ -1332,6 +1295,7 @@ img.role-acting__icon {
     grid-template-columns: minmax(0, 1fr);
     gap: 80px;
     align-items: start;
+    min-width: 0;
 }
 
 .dungeons-feature__copy {
@@ -1393,6 +1357,7 @@ img.role-acting__icon {
     grid-template-columns: minmax(0, .6fr) minmax(0, 1fr);
     gap: var(--space-10);
     align-items: end;
+    min-width: 0;
 }
 
 .dungeons-results__grid>div>p {
@@ -1404,6 +1369,9 @@ img.role-acting__icon {
     margin: 0;
     gap: 24px;
     justify-content: space-between;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
 }
 
 .dungeons-results__metrics div {
@@ -1422,7 +1390,7 @@ img.role-acting__icon {
     gap: var(--space-3);
 }
 
-.dungeons-feedback blockquote {
+.dungeons-feedback__summary {
     min-width: 0;
     margin: 0;
     padding: var(--space-6);
@@ -1430,7 +1398,7 @@ img.role-acting__icon {
     font-size: var(--text-sm);
 }
 
-.dungeons-feedback blockquote::before {
+.dungeons-feedback__summary::before {
     display: block;
     margin-bottom: var(--space-4);
     color: var(--color-text-secondary);
@@ -1525,7 +1493,7 @@ img.role-acting__icon {
     flex: 0 0 auto;
 }
 
-.dungeons-feedback__column blockquote {
+.dungeons-feedback__column .dungeons-feedback__summary {
     width: 100%;
 }
 
@@ -1552,7 +1520,7 @@ img.role-acting__icon {
 }
 
 @media (max-width: 40rem) {
-    .dungeons-feedback__column blockquote {
+    .dungeons-feedback__column .dungeons-feedback__summary {
         height: auto;
         min-height: 146px;
     }
@@ -1672,6 +1640,7 @@ img.role-acting__icon {
     .inovacoes-lab__logos-carousel {
         width: calc(100% + var(--space-12));
         margin-inline: calc(var(--space-6) * -1);
+        overflow: clip;
     }
 
     .inovacoes-lab__logos-track {
@@ -1736,6 +1705,12 @@ img.role-acting__icon {
     .dungeons-challenge__grid,
     .dungeons-feedback__grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 40rem) {
+    .inovacoes-hero .case-title--hero {
+        font-size: clamp(2.75rem, 14vw, 4rem);
     }
 }
 
@@ -1975,6 +1950,10 @@ img.role-acting__icon {
 }
 
 .dungeons-results__metrics dt {
+    display: flex;
+    flex: 0 0 100%;
+    align-items: center;
+    justify-content: center;
     color: var(--color-text);
     font: var(--weight-regular) 4.25rem / 1.25 var(--font-display);
     letter-spacing: -0.0220588235em;
@@ -2017,7 +1996,7 @@ img.role-acting__icon {
     background-image: url("../assets/icons/dungeons-feedback-neutral.svg");
 }
 
-.dungeons-feedback blockquote {
+.dungeons-feedback__summary {
     display: grid;
     align-content: start;
     gap: var(--space-2);
@@ -2027,7 +2006,7 @@ img.role-acting__icon {
     font: var(--weight-regular) 1.25rem / 1.45 var(--font-body);
 }
 
-.dungeons-feedback blockquote::before {
+.dungeons-feedback__summary::before {
     display: block;
     width: var(--space-8);
     height: var(--space-8);
@@ -2040,6 +2019,21 @@ img.role-acting__icon {
 @media (max-width: 64rem) {
     .dungeons-results__metrics {
         width: 100%;
+    }
+
+    .dungeons-results__metrics div {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .dungeons-results__metrics dt {
+        flex: 0 0 auto;
+        flex-direction: column;
+    }
+
+    .dungeons-results__metrics .dungeons-results__icon {
+        margin-bottom: var(--space-8);
     }
 
     .dungeons-feedback__grid {
@@ -2112,7 +2106,7 @@ img.role-acting__icon {
 .dungeons-results__metrics .dungeons-results__icon {
     --icon-badge-size: 112px;
     --icon-badge-content-size: 64px;
-    margin-bottom: var(--space-8);
+    flex: 0 0 var(--icon-badge-size);
 }
 
 /* Node 3572:2237 — dois agrupamentos verticais de feedback. */
@@ -2124,7 +2118,7 @@ img.role-acting__icon {
     row-gap: var(--space-4);
 }
 
-.dungeons-feedback blockquote {
+.dungeons-feedback__summary {
     height: auto;
 }
 
@@ -2138,30 +2132,30 @@ img.role-acting__icon {
     grid-row: 1;
 }
 
-.dungeons-feedback blockquote:nth-of-type(1),
-.dungeons-feedback blockquote:nth-of-type(3),
-.dungeons-feedback blockquote:nth-of-type(5) {
+.dungeons-feedback__summary:nth-of-type(1),
+.dungeons-feedback__summary:nth-of-type(3),
+.dungeons-feedback__summary:nth-of-type(5) {
     grid-column: 1;
 }
 
-.dungeons-feedback blockquote:nth-of-type(2),
-.dungeons-feedback blockquote:nth-of-type(4),
-.dungeons-feedback blockquote:nth-of-type(6) {
+.dungeons-feedback__summary:nth-of-type(2),
+.dungeons-feedback__summary:nth-of-type(4),
+.dungeons-feedback__summary:nth-of-type(6) {
     grid-column: 2;
 }
 
-.dungeons-feedback blockquote:nth-of-type(1),
-.dungeons-feedback blockquote:nth-of-type(2) {
+.dungeons-feedback__summary:nth-of-type(1),
+.dungeons-feedback__summary:nth-of-type(2) {
     grid-row: 2;
 }
 
-.dungeons-feedback blockquote:nth-of-type(3),
-.dungeons-feedback blockquote:nth-of-type(4) {
+.dungeons-feedback__summary:nth-of-type(3),
+.dungeons-feedback__summary:nth-of-type(4) {
     grid-row: 3;
 }
 
-.dungeons-feedback blockquote:nth-of-type(5),
-.dungeons-feedback blockquote:nth-of-type(6) {
+.dungeons-feedback__summary:nth-of-type(5),
+.dungeons-feedback__summary:nth-of-type(6) {
     grid-row: 4;
 }
 
@@ -2197,32 +2191,32 @@ img.role-acting__icon {
         grid-template-rows: 32px repeat(3, 146px) 32px repeat(3, 146px);
     }
 
-    .dungeons-feedback blockquote:nth-of-type(1) {
+    .dungeons-feedback__summary:nth-of-type(1) {
         grid-column: 1;
         grid-row: 2;
     }
 
-    .dungeons-feedback blockquote:nth-of-type(3) {
+    .dungeons-feedback__summary:nth-of-type(3) {
         grid-column: 1;
         grid-row: 3;
     }
 
-    .dungeons-feedback blockquote:nth-of-type(5) {
+    .dungeons-feedback__summary:nth-of-type(5) {
         grid-column: 1;
         grid-row: 4;
     }
 
-    .dungeons-feedback blockquote:nth-of-type(2) {
+    .dungeons-feedback__summary:nth-of-type(2) {
         grid-column: 1;
         grid-row: 6;
     }
 
-    .dungeons-feedback blockquote:nth-of-type(4) {
+    .dungeons-feedback__summary:nth-of-type(4) {
         grid-column: 1;
         grid-row: 7;
     }
 
-    .dungeons-feedback blockquote:nth-of-type(6) {
+    .dungeons-feedback__summary:nth-of-type(6) {
         grid-column: 1;
         grid-row: 8;
     }

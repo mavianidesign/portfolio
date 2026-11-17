@@ -1,7 +1,7 @@
 .web-design-hero {
     width: 100%;
     height: auto;
-    background: url('../assets/images/web-design/hero-collage.png') no-repeat;
+    background: url('../assets/images/web-design/hero-collage.jpg') no-repeat;
 
 }
 
@@ -27,7 +27,6 @@
     min-width: 0;
     isolation: isolate;
     --web-design-preview-height: 950px;
-    --web-design-device-width: 352px;
     --web-design-title-line-height: 1.4705882353;
 }
 
@@ -36,29 +35,8 @@
     --web-design-preview-height: 800px;
 }
 
-.web-design-project--spaces {
-    --web-design-device-width: 314px;
-}
-
-.web-design-project--meira-moraes {
-    --web-design-device-width: 331px;
-}
-
-.web-design-project--websellers {
-    --web-design-device-width: 359px;
-}
-
 .web-design-project--time {
     --web-design-preview-height: 955px;
-    --web-design-device-width: 337px;
-}
-
-.web-design-project--born {
-    --web-design-device-width: 363px;
-}
-
-.web-design-project--center-air {
-    --web-design-device-width: 359px;
 }
 
 .web-design-project__title {
@@ -290,7 +268,6 @@
 
 .web-design-project--spaces {
     --web-design-device-ratio: 314 / 268;
-    --web-design-device-position: 14% 13%;
 }
 
 .web-design-project--meira-moraes {
@@ -299,186 +276,18 @@
 
 .web-design-project--websellers {
     --web-design-device-ratio: 359 / 302;
-    --web-design-device-position: 24% 8%;
 }
 
 .web-design-project--time {
     --web-design-device-ratio: 337 / 322;
-    --web-design-device-position: 0 10%;
 }
 
 .web-design-project--born {
     --web-design-device-ratio: 363 / 325;
-    --web-design-device-position: 21% 12%;
 }
 
 .web-design-project--center-air {
     --web-design-device-ratio: 359 / 305;
-    --web-design-device-position: 18% top;
-}
-
-.web-design-project__tape-anchor {
-    position: absolute;
-    z-index: 1;
-    display: grid;
-    width: var(--web-design-tape-anchor-width);
-    height: var(--web-design-tape-anchor-height);
-    place-items: center;
-    pointer-events: none;
-    user-select: none;
-}
-
-.web-design-project__tape {
-    position: static;
-    display: block;
-    height: auto;
-    max-width: none;
-    pointer-events: none;
-    user-select: none;
-}
-
-.web-design-project--spaces .web-design-project__tape-anchor--top {
-    top: -23px;
-    left: 42.914px;
-    --web-design-tape-anchor-width: 93.252px;
-    --web-design-tape-anchor-height: 75.013px;
-}
-
-.web-design-project--spaces .web-design-project__tape-anchor--bottom {
-    top: 769.604px;
-    left: 669.919px;
-    --web-design-tape-anchor-width: 75.919px;
-    --web-design-tape-anchor-height: 75.919px;
-}
-
-.web-design-project--spaces .web-design-project__tape--top {
-    width: 36.672px;
-    transform: rotate(60deg);
-}
-
-.web-design-project--spaces .web-design-project__tape--bottom {
-    width: 32px;
-    transform: rotate(-135deg);
-}
-
-.web-design-project--meira-moraes .web-design-project__tape-anchor--top {
-    top: 24.314px;
-    left: -35px;
-    --web-design-tape-anchor-width: 91.721px;
-    --web-design-tape-anchor-height: 90.16px;
-}
-
-.web-design-project--meira-moraes .web-design-project__tape-anchor--bottom {
-    top: 824.437px;
-    left: 602.604px;
-    --web-design-tape-anchor-width: 97.942px;
-    --web-design-tape-anchor-height: 75.437px;
-}
-
-.web-design-project--meira-moraes .web-design-project__tape--top {
-    width: 91.424px;
-    transform: rotate(-43.83deg);
-}
-
-.web-design-project--meira-moraes .web-design-project__tape--bottom {
-    width: 39.024px;
-    transform: rotate(-116.82deg);
-}
-
-.web-design-project--websellers .web-design-project__tape-anchor--top {
-    top: -40px;
-    left: 576px;
-    --web-design-tape-anchor-width: 118.727px;
-    --web-design-tape-anchor-height: 91.641px;
-}
-
-.web-design-project--websellers .web-design-project__tape-anchor--bottom {
-    top: 884px;
-    left: -0.423px;
-    --web-design-tape-anchor-width: 94.045px;
-    --web-design-tape-anchor-height: 94.045px;
-}
-
-.web-design-project--websellers .web-design-project__tape--top {
-    width: 114px;
-    transform: rotate(30deg);
-}
-
-.web-design-project--websellers .web-design-project__tape--bottom {
-    width: 94.048px;
-    transform: rotate(0deg);
-}
-
-.web-design-project--time .web-design-project__tape-anchor--primary {
-    top: 21.5px;
-    left: -41px;
-    --web-design-tape-anchor-width: 119.093px;
-    --web-design-tape-anchor-height: 91.275px;
-}
-
-.web-design-project--time .web-design-project__tape-anchor--secondary {
-    top: 940.612px;
-    left: 597.805px;
-    --web-design-tape-anchor-width: 78.39px;
-    --web-design-tape-anchor-height: 67.775px;
-}
-
-.web-design-project--time .web-design-project__tape--primary {
-    width: 115px;
-    transform: rotate(-30deg);
-}
-
-.web-design-project--time .web-design-project__tape--secondary {
-    width: 68px;
-    transform: rotate(-30deg);
-}
-
-.web-design-project--born .web-design-project__tape-anchor--primary {
-    top: 46.459px;
-    left: 670.909px;
-    --web-design-tape-anchor-width: 90.909px;
-    --web-design-tape-anchor-height: 119.459px;
-}
-
-.web-design-project--born .web-design-project__tape-anchor--secondary {
-    top: 873px;
-    left: -12.716px;
-    --web-design-tape-anchor-width: 118.087px;
-    --web-design-tape-anchor-height: 118.087px;
-}
-
-.web-design-project--born .web-design-project__tape--primary {
-    width: 38px;
-    transform: rotate(150deg);
-}
-
-.web-design-project--born .web-design-project__tape--secondary {
-    width: 127px;
-    transform: rotate(45deg);
-}
-
-.web-design-project--center-air .web-design-project__tape-anchor--top {
-    top: 24.898px;
-    left: -30px;
-    --web-design-tape-anchor-width: 82.662px;
-    --web-design-tape-anchor-height: 67.579px;
-}
-
-.web-design-project--center-air .web-design-project__tape-anchor--bottom {
-    top: 979.87px;
-    left: 591.658px;
-    --web-design-tape-anchor-width: 96.728px;
-    --web-design-tape-anchor-height: 80.554px;
-}
-
-.web-design-project--center-air .web-design-project__tape--top {
-    width: 79.408px;
-    transform: rotate(-32.7deg);
-}
-
-.web-design-project--center-air .web-design-project__tape--bottom {
-    width: 73.808px;
-    transform: rotate(-94.37deg);
 }
 
 .web-design-clients {
@@ -543,32 +352,6 @@
 
     .web-design-project__device {
         margin-top: 0;
-    }
-
-    .web-design-project .web-design-project__tape-anchor--top,
-    .web-design-project .web-design-project__tape-anchor--primary {
-        top: var(--space-2);
-        left: var(--space-2);
-    }
-
-    .web-design-project .web-design-project__tape-anchor--bottom,
-    .web-design-project .web-design-project__tape-anchor--secondary {
-        top: auto;
-        right: var(--space-2);
-        bottom: var(--space-2);
-        left: auto;
-    }
-
-    .web-design-project--websellers .web-design-project__tape-anchor--top,
-    .web-design-project--born .web-design-project__tape-anchor--primary {
-        right: var(--space-2);
-        left: auto;
-    }
-
-    .web-design-project--websellers .web-design-project__tape-anchor--bottom,
-    .web-design-project--born .web-design-project__tape-anchor--secondary {
-        right: auto;
-        left: var(--space-2);
     }
 
 }

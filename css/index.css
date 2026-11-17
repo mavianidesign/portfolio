@@ -24,11 +24,11 @@
 }
 
 .project-card--web-design {
-    --project-card-image: url("../assets/images/web-design/hero-collage.png");
+    --project-card-image: url("../assets/images/web-design/hero-collage.jpg");
 }
 
 .project-card--inovacoes {
-    --project-card-image: url("../assets/images/inovacoes-disruptivas/hero-event-background.png");
+    --project-card-image: url("../assets/images/inovacoes-disruptivas/hero-event-background.jpg");
 }
 
 @media (any-hover: hover) {
@@ -42,6 +42,23 @@
 }
 
 /* Geometria e composição exclusivas das seções iniciais da home. */
+.skip-link {
+    position: fixed;
+    z-index: 100;
+    top: var(--space-4);
+    left: var(--space-4);
+    padding: var(--space-3) var(--space-4);
+    border-radius: var(--radius-sm);
+    background: var(--color-surface-inverse);
+    color: var(--color-on-inverse);
+    font: var(--weight-semibold) var(--text-sm) / var(--leading-ui) var(--font-interface);
+    transform: translateY(calc(-100% - var(--space-6)));
+}
+
+.skip-link:focus-visible {
+    transform: translateY(0);
+}
+
 .home-hero {
     position: relative;
 
@@ -67,6 +84,12 @@
 .home_hero__logo_bg img {
     width: 100%;
     height: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home_hero__logo_bg {
+        display: none;
+    }
 }
 
 .home-hero__intro {
@@ -313,6 +336,12 @@
 }
 
 @media (max-width: 40rem) {
+    .home_hero__logo_bg {
+        width: 320px;
+        min-width: 0;
+        max-width: calc(100% - 32px);
+    }
+
     .home-hero__layout {
         min-height: 600px;
         padding-block: 80px;
@@ -372,5 +401,14 @@
 
     .home-designologist__mark {
         margin-top: var(--space-10);
+    }
+
+    .experience .section-title {
+        font-size: clamp(2.25rem, 12vw, 3rem);
+    }
+
+    .project-card--inovacoes h3 {
+        font-size: clamp(2rem, 11vw, 2.75rem);
+        overflow-wrap: anywhere;
     }
 }

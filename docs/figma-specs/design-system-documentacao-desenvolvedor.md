@@ -25,7 +25,7 @@
 
 | Arquivo local | Camada/ID Figma | Função | Formato e dimensões | Proporção, recorte e foco | Exibição | Alt text |
 | --- | --- | --- | --- | --- | --- | --- |
-| `assets/images/design-system/documentation-full-image.png` | `Full Image` / `2867:1515` | documentação integral | PNG; 553 × 1302 px no layout da camada | `cover`, recortada no contêiner | 552 × 629 px | vazio |
+| `assets/images/design-system/documentation-full-image.png` | `Full Image` / `2867:1515` | documentação integral | PNG otimizado com transparência; 553 × 1302 px no layout da camada | `cover`, recortada no contêiner | 552 × 629 px | vazio |
 | `assets/images/design-system/documentation-annotated-image.png` | `Annotated Image` / `2867:1556` | documentação anotada | PNG; recorte 135,9% × 109,83% no nó | deslocamento -13,5% × -7,67% | 551 × 512 px | vazio |
 | `assets/images/design-system/documentation-arrow.png` | `Left Arrow` / `3339:3811` | decorativa | PNG; 199 × 42 px | invertida verticalmente e rotacionada 180° | 199 × 42 px | vazio |
 | `assets/icons/design-system-development.svg` | `Task Icon` / `2867:1582` | resultado 1 | SVG; 40 × 40 px | sem recorte | 40 × 40 px | vazio |

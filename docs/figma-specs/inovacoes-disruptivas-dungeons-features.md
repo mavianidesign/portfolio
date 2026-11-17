@@ -25,7 +25,7 @@
 | Arquivo local | Camada/ID Figma | Funcao | Formato e dimensoes | Proporcao, recorte e foco | Exibicao | Alt text |
 | --- | --- | --- | --- | --- | --- | --- |
 | `assets/images/inovacoes-disruptivas/dungeons-missions-illustration.png` | `Missions Illustration`, `3569:2108` | Painel de missoes | PNG, 1126 x 648 px | Sem recorte | 1126 x 648 px | `Painel de missões e tarefas da plataforma Dungeons & Data` |
-| `assets/images/inovacoes-disruptivas/dungeons-missions-detail.png` | `Missions Image`, `3571:2140` | Tela de recompensa | PNG, 464 x 573.5 px | Sem recorte | 464 x 573.5 px | `Tela de recompensa por missão concluída` |
+| `assets/images/inovacoes-disruptivas/dungeons-missions-detail.jpg` | `Missions Image`, `3571:2140` | Tela de recompensa | JPEG otimizado, 464 x 573.5 px | Sem recorte | 464 x 573.5 px | `Tela de recompensa por missão concluída` |
 | `assets/images/inovacoes-disruptivas/dungeons-ranking-illustration.png` | `Details Illustration`, `3570:2137` | Painel de ranking | PNG, 2620 x 2058 px | Sem recorte | 1126 x 884.5 px | `Tela de ranking de Dungeons & Data` |
 
 ## Interacoes e estados

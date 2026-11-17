@@ -25,7 +25,7 @@
 
 | Arquivo local | Camada/ID Figma | Funcao | Formato e dimensoes | Proporcao, recorte e foco | Exibicao | Alt text |
 | --- | --- | --- | --- | --- | --- | --- |
-| `assets/images/inovacoes-disruptivas/dungeons-opening-illustration.png` | `Icon Illustrations`, `3431:930` | Ilustracao informativa com a marca Dungeons & Data | PNG, 521 x 397 px | Sem recorte; proporcao 521:397 | 521 x 397 px no desktop | `Personagens e marca do projeto Dungeons & Data` |
+| `assets/images/inovacoes-disruptivas/dungeons-opening-illustration.jpg` | `Icon Illustrations`, `3431:930` | Ilustracao informativa com a marca Dungeons & Data | JPEG otimizado, 521 x 397 px | Sem recorte; proporcao 521:397 | 521 x 397 px no desktop | `Personagens e marca do projeto Dungeons & Data` |
 
 ## Interacoes e estados
 
